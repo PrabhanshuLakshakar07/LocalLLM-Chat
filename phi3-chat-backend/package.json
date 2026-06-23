@@ -1,0 +1,17 @@
+{
+  "name": "phi3-chat-backend",
+  "version": "1.0.0",
+  "description": "Backend for local Phi-3 (Ollama) chat app with MySQL history and real-time SSE streaming",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0"
+  }
+}
